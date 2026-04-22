@@ -235,10 +235,10 @@ function App() {
                     marginTop: 'auto',
                   }}>
                     <p style={{ margin: 0, fontSize: '0.75rem', color: isAvailable ? '#059669' : '#E11D48', fontWeight: '700' }}>
-                      {isAvailable ? 'TERSEDIA' : 'STATUS'}
+                      {isAvailable ? 'SISA BED' : 'SISA BED'}
                     </p>
-                    <p style={{ margin: 0, fontSize: '1.8rem', fontWeight: '900', color: isAvailable ? '#10B981' : '#E11D48', lineHeight: '1' }}>
-                      {isAvailable ? `${ruangan.Tersedia} BED` : 'PENUH'}
+                    <p style={{ margin: 0, fontSize: '1rem', fontWeight: '900', color: isAvailable ? '#10B981' : '#E11D48', lineHeight: '1' }}>
+                      {isAvailable ? `${ruangan.Tersedia} BED` : 'TIDAK TERSEDIA'}
                     </p>
                   </div>
                 </motion.div>
