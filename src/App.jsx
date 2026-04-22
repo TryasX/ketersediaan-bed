@@ -14,7 +14,7 @@ function App() {
   // FUNGSI: Tarik Data & Potong jadi beberapa Halaman (Swipe)
   const fetchBedData = async () => {
     try {
-      const response = await axios.get('http://127.0.0.1:8000/api/bed')
+      const response = await axios.get('http://it.shbk.com:8030/api/bed')
       const rawData = response.data?.data
 
       if (!Array.isArray(rawData)) {
